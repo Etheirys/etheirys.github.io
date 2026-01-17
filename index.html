@@ -1,0 +1,86 @@
+<!doctypehtml><html lang="en"><meta charset="utf-8"><meta content="width=device-width,initial-scale=1"name="viewport"><title>World of Etheirys - World of Etheirys</title><script>document.documentElement.classList.remove("dark")</script><script src="https://cdn.tailwindcss.com"></script><script>tailwind.config={darkMode:"class"}</script><link crossorigin="anonymous"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="referrerpolicy="no-referrer"rel="stylesheet"><style type="text/tailwindcss">@layer components {
+            .btn-primary {
+                @apply bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 shadow-md hover:shadow-lg;
+            }
+            .btn-secondary {
+                @apply bg-gray-600 hover:bg-gray-700 dark:bg-gray-500 dark:hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 shadow-md hover:shadow-lg;
+            }
+            .btn-outline {
+                @apply bg-transparent hover:bg-blue-50 dark:hover:bg-blue-900/30 text-blue-600 dark:text-blue-400 border border-blue-600 dark:border-blue-400 font-semibold py-2 px-4 rounded-lg transition duration-200;
+            }
+            .card {
+                @apply bg-white dark:bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition duration-300 p-6;
+            }
+            .badge {
+                @apply inline-flex items-center px-3 py-1 rounded-full text-sm font-medium;
+            }
+            .badge-blue {
+                @apply badge bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200;
+            }
+            .badge-green {
+                @apply badge bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200;
+            }
+            .badge-red {
+                @apply badge bg-red-100 dark:bg-red-900 text-red-800 dark:text-red-200;
+            }
+        }
+        
+        .logo-text {
+            background: linear-gradient(135deg, #3b82f6 0%, #6366f1 50%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            letter-spacing: -0.015em;
+            transition: opacity 0.2s ease;
+            padding-bottom: 0.25rem;
+            display: inline-block;
+        }
+        .dark .logo-text {
+            background: linear-gradient(135deg, #60a5fa 0%, #a5b4fc 50%, #c4b5fd 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .logo-text:hover {
+            opacity: 0.85;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        .animate-slide-up {
+            animation: slideUp 0.5s ease-out;
+        }
+        
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+        .dark ::-webkit-scrollbar-track {
+            background: #1f2937;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 4px;
+        }
+        .dark ::-webkit-scrollbar-thumb {
+            background: #4b5563;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+        .dark ::-webkit-scrollbar-thumb:hover {
+            background: #6b7280;
+        }</style><body class="relative flex flex-col min-h-screen"><div class="duration-300 transition-colors -z-10 bg-gradient-to-br dark:from-blue-950 dark:to-pink-950 dark:via-purple-950 fixed from-blue-50 inset-0 to-pink-50 via-purple-50"b-gradient></div><div class="-z-10 fixed inset-0 bg-grid-pattern dark:opacity-10 opacity-5"b-gradient></div><main class="mx-auto px-4 container lg:px-8 sm:px-6 flex-grow py-8"b-gradient><div class="relative lg:pb-20 md:pb-16 pb-8 sm:pb-12 z-10"><main class="mx-auto px-4 lg:mt-20 max-w-7xl md:mt-16 mt-10 sm:mt-12 xl:mt-28"><div class="text-center animate-slide-up"><h1 class="lg:text-7xl font-extrabold md:text-6xl sm:text-5xl text-4xl tracking-tight"><span class="dark:text-gray-100 text-gray-900 block mb-2">Welcome to</span> <span class="block leading-tight lg:text-8xl logo-text md:text-7xl pb-4 text-5xl"style="padding-bottom:1rem">World of Etheirys</span></h1><p class="mx-auto dark:text-gray-300 leading-relaxed max-w-2xl md:mt-8 md:text-2xl mt-6 sm:text-xl text-gray-600 text-lg">The upcoming hub for Final Fantasy XIV creativity and community</div><div class="animate-fade-in md:mt-20 mt-16"><div class="border bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700 p-8 duration-300 lg:p-16 rounded-3xl shadow-2xl sm:p-12 transition-colors"><h1 class="text-center dark:text-gray-100 text-gray-900 font-extrabold text-3xl mb-8">What is World of Etheirys?</h1><div class="mx-auto max-w-4xl dark:prose-invert prose prose-lg"><p class="text-center text-gray-600 dark:text-gray-300 leading-relaxed text-lg">From the Brio dev comes, World of Etheirys an upcoming community platform with the idea of bring together eveyone who love to customize and share their creative content. Whether you're passionate about glamours, poses, mods or Brio, this will be your central hub to discover, share, and celebrate the creativity of the FFXIV community.</div><h2 class="text-center dark:text-gray-100 text-gray-900 font-extrabold text-3xl mb-8">Hasn't this been done before?</h2><div class="mx-auto max-w-4xl dark:prose-invert prose prose-lg"><p class="text-center text-gray-600 dark:text-gray-300 leading-relaxed text-lg">Sort of! There have been various community efforts in the past to create mod repositories and galleries for FFXIV content, but World of Etheirys aims to be a comprehensive, user-friendly platform. Made with the community, from the very start, not hidden away to one day be a surprise.<p class="text-center text-gray-600 dark:text-gray-300 leading-relaxed text-lg">This will be a hard project, there is no doubt about that, there will be a lot of opinions, again, this isn't the first time this has tried to be done, but with the help and effort of the community, I think we can make something great together.</div><h2 class="text-center dark:text-gray-100 text-gray-900 font-extrabold text-3xl mb-8">What are the features!?</h2><div class="mx-auto max-w-4xl dark:prose-invert prose prose-lg"><p class="text-center text-gray-600 dark:text-gray-300 leading-relaxed text-lg">Below you can find a very short list of features I am aiming to implement for launch, the idea here is that this is all based on the community feedback and what you all want to see, so if you all don't want something, I won't build it, but if you do, so shall I do so! With that, please join the Discord and let me know your thoughts and feedback! Hope to see you there! And, Happy Posing!</div></div></div><div class="text-center mt-12"><div class="border bg-yellow-100 border-yellow-200 dark:bg-yellow-900/30 dark:border-yellow-700 inline-flex items-center px-6 py-3 rounded-full"><i class="fa-solid dark:text-yellow-400 fa-clock mr-2 text-lg text-yellow-600"></i> <span class="dark:text-yellow-300 font-semibold text-sm text-yellow-800">Currently in Development - Launch Date Coming Soon</span></div></div><div class="md:mt-20 mt-16"><h2 class="text-center dark:text-gray-100 text-gray-900 font-extrabold text-3xl mb-12">Coming Soon</h2><div class="mx-auto grid grid-cols-1 gap-8 lg:grid-cols-3 max-w-6xl sm:grid-cols-2"><div class="animate-slide-up"><div class="border bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700 p-8 h-full rounded-2xl shadow-lg"><div class="mx-auto flex h-16 items-center justify-center mb-6 rounded-xl w-16"style="background:linear-gradient(135deg,#06b6d4 0,#3b82f6 100%)"><i class="fa-solid text-3xl text-white fa-shirt"></i></div><h3 class="text-center dark:text-gray-100 text-gray-900 font-bold mb-4 text-xl">Glamour and MCDF Gallery</h3></div></div><div class="animate-slide-up"style="animation-delay:.1s"><div class="border bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700 p-8 h-full rounded-2xl shadow-lg"><div class="mx-auto flex h-16 items-center justify-center mb-6 rounded-xl w-16"style="background:linear-gradient(135deg,#6366f1 0,#8b5cf6 100%)"><i class="fa-solid text-3xl text-white fa-cubes"></i></div><h3 class="text-center dark:text-gray-100 text-gray-900 font-bold mb-4 text-xl">Mod Repository</h3></div></div><div class="animate-slide-up"style="animation-delay:.2s"><div class="border bg-white border-gray-200 dark:bg-gray-800 dark:border-gray-700 p-8 h-full rounded-2xl shadow-lg"><div class="mx-auto flex h-16 items-center justify-center mb-6 rounded-xl w-16"style="background:linear-gradient(135deg,#ec4899 0,#f43f5e 100%)"><i class="fa-solid text-3xl text-white fa-camera"></i></div><h3 class="text-center dark:text-gray-100 text-gray-900 font-bold mb-4 text-xl">Pose Collection</h3></div></div></div></div><div class="animate-fade-in md:mt-20 mt-16"><div class="border dark:border-gray-700 p-8 duration-300 lg:p-16 rounded-3xl shadow-2xl sm:p-12 transition-colors bg-gradient-to-r border-purple-200 dark:from-gray-800 dark:to-gray-800 dark:via-gray-850 from-purple-50 to-blue-50 via-pink-50"><h2 class="text-center dark:text-gray-100 text-gray-900 font-extrabold text-3xl mb-8">Brio Online</h2><div class="mx-auto max-w-4xl dark:prose-invert prose prose-lg"><p class="text-center text-gray-600 dark:text-gray-300 leading-relaxed text-lg mb-6">Brio Online, Moving forward with the advancement of MCDO, now built into Brio</div><div class="mx-auto max-w-4xl gap-6 grid grid-cols-1 md:grid-cols-2 mt-8"><div class="border bg-white border-purple-100 dark:bg-gray-700 dark:border-gray-600 p-6 rounded-xl"><div class="items-center flex mb-3"><i class="fa-solid dark:text-purple-400 mr-3 text-2xl text-purple-600 fa-cloud"></i><h3 class="dark:text-gray-100 text-gray-900 font-bold text-lg">Cloud-Based Pose/MCDF Sharing</h3></div><p class="text-gray-600 dark:text-gray-300 text-sm">Upload to save and share your poses with Friends</div><div class="border bg-white border-purple-100 dark:bg-gray-700 dark:border-gray-600 p-6 rounded-xl"><div class="items-center flex mb-3"><i class="fa-solid dark:text-purple-400 mr-3 text-2xl text-purple-600 fa-users"></i><h3 class="dark:text-gray-100 text-gray-900 font-bold text-lg">GPose-Together</h3></div><p class="text-gray-600 dark:text-gray-300 text-sm">The same Idea is GPose-Together, Get into a session with friends and pose live, Together!</div></div></div></div><div class="animate-fade-in mb-16 md:mt-24 mt-20"style="animation-delay:.3s"><div class="text-center bg-gradient-to-r border border-gray-200 dark:border-gray-700 dark:from-gray-800 dark:to-gray-800 dark:via-gray-800 from-blue-50 p-12 rounded-3xl shadow-2xl sm:p-16 to-pink-50 via-purple-50"><div class="mx-auto max-w-3xl"><h2 class="dark:text-gray-100 text-gray-900 font-extrabold text-3xl mb-6 sm:text-4xl">Join Our Community</h2><p class="text-gray-600 dark:text-gray-300 leading-relaxed mb-8 text-xl">Join our Discord server to stay updated on the launch!</p><a class="items-center rounded-xl bg-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-600 duration-200 font-bold hover:bg-indigo-700 hover:scale-105 hover:shadow-xl inline-flex px-8 py-4 shadow-lg text-lg text-white transform transition-all"href="https://discord.gg/GCb4srgEaH"rel="noopener noreferrer"target="_blank"><i class="mr-3 fa-brands fa-discord text-3xl"></i> Join Discord Server</a></div></div></div></main></div></main><footer b-tj7x0l9kb7 class="shadow-lg border-gray-200 dark:border-gray-700 backdrop-blur-sm bg-gradient-to-r border-t dark:from-gray-800/95 dark:to-gray-800/95 dark:via-gray-800/98 duration-300 from-white/95 mt-auto to-white/95 transition-colors via-white/98"><div class="mx-auto px-4 container lg:px-8 sm:px-6 py-6"b-tj7x0l9kb7><div class="text-center text-gray-600 dark:text-gray-400 text-sm"b-tj7x0l9kb7>© 2026 World of Etheirys - This website is not in anyway affiliated with SQUARE ENIX CO. LTD. or FINAL FANTASY XIV © 2010-2026</div></div></footer>
